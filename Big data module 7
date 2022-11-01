@@ -1,0 +1,72 @@
+1.##What is a data warehouse? List the types of Data warehouse architectures.
+
+         A data warehouse architecture is a method of defining the overall architecture of 
+data communication processing and presentation that exist for end-clients computing within the enterprise.
+Each data warehouse is different, but all are characterized by standard vital components.
+
+
+Types of Data Warehouse Architecture :
+
+Single-tier architecture, which aims to deduplicate data to minimize the amount of stored data.
+ Three-tier architecture. 
+  Data Warehouse Database.
+   Extraction,Transformation,and Loading Tools (ETL)
+    Metadata.
+     Data Warehouse Access Tools.
+
+
+
+
+2.##What does OLAP stand for?
+
+         Online analytical processing (OLAP) is a system for performing multi-dimensional analysis 
+at high speeds on large volumes of data.Typically, this data is from a data warehouse, 
+data mart or some other centralized data store.
+
+
+
+
+3.##What does OLTP stand for?
+         
+         OLTP (online transaction processing) is a class of software programs capable of supporting transaction-oriented applications.
+In computing, a transaction is a sequence of discrete information exchanges that are treated as a unit.
+
+
+
+
+4.##What is a star schema?
+     
+          A star schema is a database organizational structure optimized for use in a data warehouse or business intelligence 
+that uses a single large fact table to store transactional or measured data, and one or more smaller dimensional tables that store attributes about the data.
+
+
+
+
+5.##What is a snow flake schema?
+   
+           A snowflake schema is a multi-dimensional data model that is an extension of a star schema, where dimension tables are broken down into subdimensions.
+Snowflake schemas are commonly used for business intelligence and reporting in OLAP data warehouses, data marts, and relational databases.
+
+
+
+
+6.##Define fact-less fact.
+   
+            Factless facts are those fact tables that have no measures associated with the transaction.
+Factless facts are a simple collection of dimensional keys which define the transactions or describing condition for the time period of the fact.
+
+
+
+
+7.##What do you understand by dimensional modeling?
+
+             Data Dimensional Modelling (DDM) is a technique that uses Dimensions and Facts to store the data in a Data Warehouse efficiently.
+It optimises the database for faster retrieval of the data. Dimensional Models have a specific structure and organise the data to generate reports that improve performance.
+
+
+
+
+8.##What is a data mart?
+   
+            A data mart is a structure / access pattern specific to data warehouse environments, used to retrieve client-facing data.
+Data mart is a subset of the data warehouse and is usually oriented to a specific business line or team.
